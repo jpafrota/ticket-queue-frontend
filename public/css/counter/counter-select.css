@@ -1,0 +1,48 @@
+body {
+    background-color: #1A3636 !important;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.descr {
+    margin: 100px 0px 100px 0px;
+}
+
+.title, .subtitle{
+    display: flex;
+    justify-content: center;
+}
+
+.counters {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.counter-card.card {
+    height: 300px;
+    width: 300px;
+    border-color: #677D6A;
+    background-color: #D6BD98;
+}
+
+.counter-card.card .card-body {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counter-statuts {
+    color: red;
+}

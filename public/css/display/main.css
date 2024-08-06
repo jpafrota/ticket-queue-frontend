@@ -1,0 +1,55 @@
+
+main {
+    min-height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* ============= SECTION: Current tickets ============= */
+#current-tickets {
+    text-align: center;
+}
+
+#current-tickets h2 {
+    margin: 20px 0px;
+}
+
+#ticket-pool {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 50px 0px;
+}
+
+/* ============= SECTION: ticket history ============= */
+#history {
+    background-color: #e9a209;
+    display: flex;
+    justify-content: flex-end;
+    flex: 1 0 0;
+}
+
+#advertise {
+    color: #FFF9EA;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex: 1 0 0;
+}
+
+#last-tickets {
+    background-color: #FDE8B6;
+    border-radius: 100px 0px 0px 0px;
+    text-align: center;
+    align-content: center;
+    width: 400px;
+}
+
+#last-tickets ul {
+    margin: 0px;
+    padding: 0;
+    font-size: 1.25em;
+    font-weight: 500;
+}
