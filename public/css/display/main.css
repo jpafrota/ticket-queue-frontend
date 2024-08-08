@@ -27,7 +27,7 @@ main {
     background-color: #e9a209;
     display: flex;
     justify-content: flex-end;
-    flex: 1 0 0;
+    flex: 1;
 }
 
 #advertise {
@@ -36,15 +36,20 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex: 1 0 0;
+    flex: 1;
 }
 
 #last-tickets {
     background-color: #FDE8B6;
+    color: #524f4f;
     border-radius: 100px 0px 0px 0px;
     text-align: center;
     align-content: center;
     width: 400px;
+}
+
+#last-tickets h2 {
+    font-weight: 600;
 }
 
 #last-tickets ul {
